@@ -1,5 +1,5 @@
 # Custom Items for Forge 1.8.9
-This mod aims to replace Optifine's custom item module as the dominant custom item feature for Forge 1.8.9.
+This mod aims to patch Optifine's Custom Item module to make it more optimized in high-load scenarios.
 
 ## Why?
 Optifine's approach is not optimal for large-scale maps and resource packs. Optifine scans NBT data for every item every frame, without features like caching, causing huge framerate drops when entities exceed the expected amount.
